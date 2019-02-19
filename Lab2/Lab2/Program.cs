@@ -38,5 +38,12 @@ namespace Lab2
                     break;
             }
         }
+
+        static void umn(float a, float b)
+        {
+            Console.Clear();
+            Console.WriteLine($"{a * b}");
+            Console.ReadKey();
+        }
     }
 }

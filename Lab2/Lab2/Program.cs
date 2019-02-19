@@ -39,6 +39,7 @@ namespace Lab2
             }
         }
 
+
         static void sum(float a, float b)
         {
             Console.Clear();
@@ -57,6 +58,13 @@ namespace Lab2
         {
             Console.Clear();
             Console.WriteLine($"{a * b}");
+            Console.ReadKey();
+        }
+
+        static void del(float a, float b)
+        {
+            Console.Clear();
+            Console.WriteLine($"{a / b}");
             Console.ReadKey();
         }
 

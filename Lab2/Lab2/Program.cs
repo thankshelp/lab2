@@ -39,21 +39,26 @@ namespace Lab2
             }
         }
 
-<<<<<<< HEAD
         static void sum(float a, float b)
         {
             Console.Clear();
             Console.WriteLine($"{a + b}");
             Console.ReadKey();
-        } 
-=======
-            static void min(float a, float b)
-            {
+        }
+
+        static void min(float a, float b)
+        {
                 Console.Clear();
                 Console.WriteLine($"{a - b}");
                 Console.ReadKey();
-            }
-        
->>>>>>> minus
+        }
+
+        static void umn(float a, float b)
+        {
+            Console.Clear();
+            Console.WriteLine($"{a * b}");
+            Console.ReadKey();
+        }
+
     }
 }

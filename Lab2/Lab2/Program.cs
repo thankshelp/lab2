@@ -11,7 +11,7 @@ namespace Lab2
         static void Main(string[] args)
         {
             Console.WriteLine("Enter A and B:");
-
+            
             float a = float.Parse(Console.ReadLine());
             float a = float.Parse(Console.ReadLine());
 

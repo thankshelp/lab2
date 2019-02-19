@@ -13,7 +13,7 @@ namespace Lab2
             Console.WriteLine("Enter A and B:");
 
             float a = float.Parse(Console.ReadLine());
-            float a = float.Parse(Console.ReadLine());
+            float b = float.Parse(Console.ReadLine());
 
             Console.Clear();
 
@@ -23,7 +23,7 @@ namespace Lab2
             int q = int.Parse(Console.ReadLine());
 
             switch (q)
-            { 
+            {
                 case 1:
                     sum(a, b);
                     break;
@@ -38,5 +38,13 @@ namespace Lab2
                     break;
             }
         }
+
+            static void min(float a, float b)
+            {
+                Console.Clear();
+                Console.WriteLine($"{a - b}");
+                Console.ReadKey();
+            }
+        
     }
 }
